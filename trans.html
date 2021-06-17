@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Transaction Panel</title>
+    <link rel="stylesheet" href="transf.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <!-- <header>
+  <div class = "main"><ul>
+    <li>
+        <a href="#">Call-9999999999</a>
+    </li>
+</ul></div>
+</header> -->
+  <div class="logo">
+    <a href="ui.html"><img src="bank.png"></a>
+</div>
+  <div class="container">
+    <div class="title">Transaction Menu</div>
+    <div class="content">
+      <form method="post" action="index.php">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Sender Name</span>
+            <input type="text" name="Sender" placeholder="Enter sender name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Receiver Name</span>
+            <input type="text" name="Receiver" placeholder="Enter receiver name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Amount</span>
+            <input type="text" name="Amount" placeholder="Enter amount" required>
+          </div>
+        <div class="button">
+          <input type="submit" name="Send" value="Send Money">
+        </div>
+        <div class="histbutton">
+          <input type="history" onclick= "location.href='ttable.php'" name="Trans" value="Transaction History">
+        </div>
+        <!-- <a href="ttable.php" class="histbutton"></a> -->
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
