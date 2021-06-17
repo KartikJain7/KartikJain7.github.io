@@ -11,7 +11,7 @@
 
 <body>
 <div class="logo">
-    <a href="ui.html"><img src="bank.png"></a>
+    <a href="index.html"><img src="bank.png"></a>
 </div>
 <div class="title">
                 <h1>Customer List</h1>
