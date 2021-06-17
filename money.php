@@ -60,7 +60,7 @@ pg_close($con);
    </head>
 <body>
   <div class="logo">
-    <a href="ui.html"><img src="bank.png"></a>
+    <a href="index.html"><img src="bank.png"></a>
 </div>
   <div class="container">
     <div class="title">Transaction Menu</div>
